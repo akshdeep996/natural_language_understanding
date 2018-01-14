@@ -1,4 +1,4 @@
-require('dotenv').config()
+require('dotenv').config({path: '../.env'})
 
 var NLUV1 = require('watson-developer-cloud/natural-language-understanding/v1.js');
 var nlu = new NLUV1({
