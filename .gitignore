@@ -1,2 +1,4 @@
 #ignore files in the list
 log.txt
+6809*
+CTB*

@@ -1,12 +1,12 @@
 var NLUV1 = require('watson-developer-cloud/natural-language-understanding/v1.js');
 var nlu = new NLUV1({
-  'username': '68096dc3-fef3-4a73-a90e-147214cd5329',
-  'password': 'CTBA3MEo2jbm',
+  'username': '',   //Your username and password of nlu api
+  'password': '',
   'version_date': '2017-02-27'
 });
 
 var letters = {
-  'text': 'Nitte Meenakshi is a great colege withe great teachers !',
+  'text': 'Nitte Meenakshi is a great colege with great teachers !',
   'features': {
     'entities': {
       'emotion': true,
