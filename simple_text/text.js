@@ -7,7 +7,7 @@ var nlu = new NLUV1({
   'version_date': '2017-02-27'
 });
 
-var letters = {
+var words = {
   'text': 'Nitte Meenakshi is a great colege with great teachers !',
   'features': {
     'categories':{
@@ -29,9 +29,9 @@ var letters = {
   }
 }
 
-nlu.analyze(letters, function(error, result) {
+nlu.analyze(words, function(error, result) {
   if (error)
-    console.log('OOPS thir was an error which is :', error);
+    console.log('OOPS their was an error which is :', error);
   else
     console.log(JSON.stringify(result, 0, 3));
 });
